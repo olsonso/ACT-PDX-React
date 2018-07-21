@@ -1,3 +1,3 @@
 Starter repo for ACT-PDX react workshop
 
-Create youtube react application
+Create simple todo react application
