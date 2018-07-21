@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
 import './style/style.css';
+import TodoList from './components/todo-list';
 
 class App extends Component {
   render() {
@@ -8,8 +9,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">ACT-PDX Youtube React Starter</h1>
         </header>
+        <TodoList />
       </div>
     );
   }
